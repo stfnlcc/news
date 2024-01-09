@@ -1,0 +1,66 @@
+body {
+    font-family: 'Angkor';font-size: 22px;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rosso {
+color: gray;
+font-size: 50px;
+font-family: sans-serif;
+}
+
+.grigio {
+color: red;
+font-size: 50px;
+font-family: sans-serif;
+}
+
+.containerrosso {
+    width: 100%;
+    height: 475px;
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.containergrigio {
+      width: 100%;
+      height: 475px;
+      display: flex;
+      background-color: gray;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: flex-start;
+      align-items: stretch;
+  }
+
+
+    .containermix {
+        display: flex;
+        position: fixed;
+        height: 700px;
+        width: 500px;
+        background: linear-gradient(to bottom, gray 40%, red 100%);
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerenter {
+        font-size: 150px;
+        display: flex;
+    }
